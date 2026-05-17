@@ -74,3 +74,8 @@ Thumbs.db
 # JetBrains
 ############################
 *.DotSettings.user
+
+############################
+# Paquetes locales
+############################
+*.tgz
