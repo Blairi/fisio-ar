@@ -369,8 +369,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 1521580960}
   mHiddenRoot: {fileID: 0}
-  mTargetName: 
-  mDatasetName: 
+  mTargetName: image-fisio-ar
+  mDatasetName: Vuforia/fisio-ar.xml
   mCastedBehaviour: {fileID: 1521580960}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
@@ -433,13 +433,13 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: 
+  mTrackableName: image-fisio-ar
   mInitializedInEditor: 1
-  mDataSetPath: 
+  mDataSetPath: Vuforia/fisio-ar.xml
   mAspectRatio: 1
-  mImageTargetType: 3
-  mWidth: 0.2
-  mHeight: 0.2
+  mImageTargetType: 0
+  mWidth: 1
+  mHeight: 1
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
