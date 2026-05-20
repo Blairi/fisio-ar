@@ -140,7 +140,7 @@ public class RoutineManager : MonoBehaviour
             generatedRoutine.objective = "Liberar tensión";
             generatedRoutine.exerciseList.Add(new Exercise("Inclinación lateral suave", 10, "Anim_LateralNeckTilt"));
             generatedRoutine.exerciseList.Add(new Exercise("Rotación controlada", 3, "Anim_NeckRotation"));
-            generatedRoutine.exerciseList.Add(new Exercise("Descanso guiado", 5, "Anim  GuidedRest"));
+            generatedRoutine.exerciseList.Add(new Exercise("Descanso guiado", 5, "Anim_GuidedRest"));
         }
         else if (storedPainLevel >= 4 && storedPainLevel <= 6)
         {
