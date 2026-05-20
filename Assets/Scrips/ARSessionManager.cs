@@ -5,6 +5,7 @@ public class ARSessionManager : MonoBehaviour
 {
     [Header("Managers")]
     public ARUIManager uiManager;
+    public RoutineExecutionManager executionManager;
 
     void Start()
     {
@@ -40,10 +41,7 @@ public class ARSessionManager : MonoBehaviour
 
     public void StartExercise()
     {
-        uiManager.HideAllPanels();
-        Debug.Log("Iniciando lógica de ejercicios y animaciones...");
-        
-        // TODO: Aquí instanciaremos el controlador de animaciones
+        executionManager.StartRoutineExecution();
     }
 
     public void ReturnToMenu()
